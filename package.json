@@ -1,0 +1,26 @@
+{
+  "name": "CSDS395_Rate_My_Teammate",
+  "version": "1.0.0",
+  "description": "This repo is for CSDS 395 Senior Project Rate My Teammate Group.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "history": "^5.0.1",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyyy03/CSDS395_Rate_My_Teammate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyyy03/CSDS395_Rate_My_Teammate/issues"
+  },
+  "homepage": "https://github.com/jyyy03/CSDS395_Rate_My_Teammate#readme"
+}

@@ -1,0 +1,35 @@
+.font-link{
+  font-family: 'Exo 2', sans-serif;
+}
+
+.new-form__controls {
+  padding: 0.4rem;
+  margin: 0.5rem auto;
+  display: flex;
+  width: 15rem;
+  max-width: 80%;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.new-form__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-form__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-form__actions {
+  text-align: center;
+}

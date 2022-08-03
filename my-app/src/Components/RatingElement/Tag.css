@@ -1,0 +1,57 @@
+:root{
+    --select: #ACADAF;
+    --pos: #5A9C78;
+    --neg: #E45F62;
+    --white: #E2ECF3; 
+}
+
+.tag{
+    font-weight:100;
+    font-family:font-link;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    margin-top: 12px;
+    margin-right: 8px;
+}
+
+.tag:hover{
+    transform: translateY(-2px)
+}
+
+/* Tag colors and styles */
+.tag--select{
+    background-color: var(--select);
+    color: var(--white);
+    border:outset;
+    border-color: var(--white);
+    border-width: 1.2px 1.2px 1.2px 1.2px;;
+}
+
+.tag--pos{
+    background-color: var(--pos);
+    color: var(--white);
+    border:outset;
+    border-color: var(--white);
+    border-width: 1.2px 1.2px 1.2px 1.2px;;
+}
+
+.tag--neg{
+    background-color: var(--neg);
+    color: var(--white);
+    border:outset;
+    border-color: var(--white);
+    border-width: 1.2px 1.2px 1.2px 1.2px;;
+}
+
+/* Tag Size */
+.tag--small{
+    padding: 5px 20px;
+    font-size: 11px;
+}
+
+.tag--medium{
+    padding: 5px 20px;
+    font-size: 13.5px;
+}
